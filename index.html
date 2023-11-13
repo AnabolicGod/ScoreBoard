@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nils Fredrik Andersen">
+    <meta name="description" content="score board for games">
+    <title>Score board</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" async></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="countdown-flex">
+            
+            <p id="countdown">12:00</p>
+        </div>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="score-home">0</h2>
+                <div class="buttons">
+                    <button class="point-buttons" onclick="home1()">+1</button>
+                    <button class="point-buttons" onclick="home2()">+2</button>
+                    <button class="point-buttons" onclick="home3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 class="score" id="score-guest">0</h2>
+                <div class="buttons">
+                    <button class="point-buttons" onclick="guest1()">+1</button>
+                    <button class="point-buttons" onclick="guest2()">+2</button>
+                    <button class="point-buttons" onclick="guest3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="new-game">
+            <button id="new-game-btn" onclick="gameReset()">NEW GAME</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-image: url(img/basketball\ 3264x2448.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(219, 233, 241);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    border: 2px solid black;
+    margin: 20px 230px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background: linear-gradient(61deg, rgba(106,0,171,1) 0%, rgba(18,14,20,1) 52%, rgba(163,167,247,1) 100%);
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 21px;
+}
+
+.countdown-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#countdown {
+    font-family: cursedTimer;
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 50px;
+    margin: 0px 380px 30px;
+    padding: 10px 30px 0;
+    
+    
+}
+
+.score {
+    font-family: cursedTimer;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    font-weight: 400px;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    background: #080001;
+    margin: 0 0 26px;
+    line-height: 130px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point-buttons {
+    font-family: cursedTimer;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    height: 45px;
+    width: 45px;
+}
+
+.point-buttons:hover, #new-game-btn:hover {
+    background: #2f3c75;
+}
+
+.point-buttons:active, #new-game-btn:active {
+    transform: scale(.95)
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+}
+
+#new-game-btn {
+    margin-top: 45px;
+    font-family: cursedTimer;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 22px;
+    border-radius: 5px;
+    background: none;
+    height: 55px;
+    width: 140px;
+    
+}
+
